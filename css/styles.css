@@ -1,0 +1,39 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container {
+    width: 70vh;
+    height: 70vh;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 4px;
+    overflow: hidden;
+    display: grid;
+}
+
+.pixel {
+    width: 1fr;
+    height: 1fr;
+    border: 1px dotted rgba(0, 0, 0, 0.101);
+    border-radius: 1px;
+}
+
+.buttons {
+    display: flex;
+    gap: 2vw;
+}
+
+.reset-button {
+    display: block;
+    max-width: 80px;
+    margin: 10px auto;
+}
+.setBw-button {
+    display: block;
+    max-width: 80px;
+    margin: 10px auto;
+}
